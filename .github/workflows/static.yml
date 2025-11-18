@@ -1,0 +1,169 @@
+<!index.html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>E.G.G.S — Epic Gamer Game Squad</title>
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--muted:#9aa7b2;--accent:#6ee7b7}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;color:#e6eef6;background:linear-gradient(180deg,var(--bg) 0%, #071021 100%);}
+    .container{max-width:1000px;margin:48px auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between;margin-bottom:28px}
+    .logo{display:flex;gap:12px;align-items:center}
+    .logo-mark{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,#0ea5a9,#7c3aed);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:18px}
+    nav a{color:var(--muted);text-decoration:none;margin-left:16px}
+    .card{background:rgba(255,255,255,0.03);border-radius:14px;padding:22px;box-shadow:0 6px 18px rgba(2,6,23,0.6);}
+    h1{margin:0;font-size:28px}
+    .tag{color:var(--accent);font-weight:600;margin-top:6px}
+    p.lead{color:var(--muted);line-height:1.5;margin-top:12px}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:18px}
+    .info h3{margin:0 0 8px 0}
+    .people{background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));padding:14px;border-radius:12px}
+    .person{display:flex;gap:12px;align-items:center;padding:10px;border-radius:8px}
+    .avatar{width:56px;height:56px;border-radius:10px;background:#0b1220;display:flex;align-items:center;justify-content:center;color:var(--muted);font-weight:700}
+    .pname{font-weight:700}
+    .prole{color:var(--muted);font-size:13px}
+    .muted{color:var(--muted);font-size:13px}
+    .cta{display:inline-block;margin-top:14px;padding:10px 14px;border-radius:10px;background:#142439;color:var(--accent);text-decoration:none;font-weight:700}
+    @media(max-width:880px){.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <div class="logo-mark">E.G.G.S</div>
+        <div>
+          <div style="font-weight:800;color:#e6eef6">E.G.G.S</div>
+          <div class="muted">Epic Gamer Game Squad</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#eggs">About</a>
+        <a href="#people">People</a>
+        <a href="#downloadables">Downloadables</a>
+      </nav>
+    </header>
+
+    <main class="card" id="eggs">
+      <div style="display:flex;align-items:flex-start;gap:18px;flex-direction:column">
+        <div style="display:flex;align-items:center;justify-content:space-between;width:100%">
+          <div>
+            <h1>E.G.G.S</h1>
+            <div class="tag">Epic Gamer Game Squad</div>
+          </div>
+          <div class="muted">Section: Overview</div>
+        </div>
+
+        <p class="lead"><strong>What E.G.G.S is</strong><br>
+        E.G.G.S stands for <em>Epic Gamer Game Squad</em> — a small creative collective that codes and creates gaming videos. We build mods, record gameplay, and share tips and edits for the community.</p>
+
+        <div class="grid">
+          <div class="info">
+            <h3>What does E.G.G.S do?</h3>
+            <p class="muted">We code and create gaming videos. Our work includes modding, tutorial videos, highlight reels, and live streams. We focus on collaboration: designers, coders, and creators working together to make things that gamers love.</p>
+
+            <a class="cta" href="#people">Meet the Team</a>
+          </div>
+
+          <aside class="people" id="people">
+            <h3 style="margin-top:0">People</h3>
+
+            <div class="person">
+              <div class="avatar">C</div>
+              <div>
+                <div class="pname">Colby Chambers</div>
+                <div class="prole">Coder</div>
+              </div>
+            </div>
+
+            <div class="person">
+              <div class="avatar">K</div>
+              <div>
+                <div class="pname">Kaleb Sinclaire</div>
+                <div class="prole">Coder</div>
+              </div>
+            </div>
+
+            <div class="person">
+              <div class="avatar">J</div>
+              <div>
+                <div class="pname">Jeffory Klacias</div>
+                <div class="prole">Game Tester</div>
+              </div>
+            </div>
+
+            <div class="person">
+              <div class="avatar">C</div>
+              <div>
+                <div class="pname">Cooper Garcia</div>
+                <div class="prole">Game Tester</div>
+              </div>
+            </div>
+
+            <div class="person">
+              <div class="avatar">A</div>
+              <div>
+                <div class="pname">Amir Martin</div>
+                <div class="prole">Website Coder & Supplier</div>
+              </div>
+            </div>
+
+            <div class="person">
+              <div class="avatar">B</div>
+              <div>
+                <div class="pname">Bowen Johnson</div>
+                <div class="prole">Artist</div>
+              </div>
+            </div>
+
+            <div class="person">
+              <div class="avatar">S</div>
+              <div>
+                <div class="pname">Stephen Crumet</div>
+                <div class="prole">Coder</div>
+              </div>
+            </div>
+
+            <div class="person">
+              <div class="avatar">A</div>
+              <div>
+                <div class="pname">Liam Johnson</div>
+                <div class="prole">Game tester</div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </main>
+
+    <!-- Updated Downloadables Section -->
+    <section class="card" id="downloadables" style="margin-top:20px">
+      <h2 style="margin-top:0">Downloadables</h2>
+      <p class="muted">Click a game or file below to download or access related content.</p>
+
+      <div style="display:flex;flex-direction:column;gap:12px;margin-top:12px">
+        <!-- Google Drive direct download -->
+        <a class="cta" href="https://drive.google.com/uc?export=download&id=10aFKD3OlLlPgQLiqbHG17uFN4o9dO6op" download="EGGS_Mod.zip">
+          Download E.G.G.S games
+        </a>
+
+        <!-- YouTube link -->
+        <a class="cta" href="https://www.youtube.com/@Thecrazygamerman-q7l/posts" target="_blank">
+          Visit YouTube
+        </a>
+      </div>
+
+      <p class="muted" style="margin-top:12px;font-size:14px">
+        For any game support contact: <strong>colbyisbig@gmail.com</strong>
+      </p>
+    </section>
+
+    <footer style="margin-top:18px;color:var(--muted);font-size:13px;text-align:center">
+      © E.G.G.S — Epic Gamer Game Squad
+    </footer>
+  </div>
+</body>
+
+</html>
